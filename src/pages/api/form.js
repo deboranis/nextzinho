@@ -1,6 +1,6 @@
 export default function handler(req, res) {
   // Get data submitted in request's body.
-  const body = JSON.parse(JSON.stringify(req.body)) 
+  const body = req.body;
 
   // Optional logging to see the responses
   // in the command line where next.js app is running.
