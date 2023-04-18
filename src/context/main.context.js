@@ -1,4 +1,5 @@
 import mainActions from "./main.actions";
+import React from "react";
 
 function combineReducers(...reducers) {
   // vai receber um array de reducers com suas actions
